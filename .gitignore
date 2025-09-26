@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (optional: if you want teammates to re-generate)
+# comment out if you want to keep them under version control
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.env
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
